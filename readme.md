@@ -1,5 +1,7 @@
 # Send Email Template from GMail via Nodejs
 
+## Blog Link: http://blog.kashishgupta.in/2017/07/19/send-dynamic-email-template-using-nodejs/
+
 ## Install dependency
 - `npm install`
 
@@ -15,7 +17,7 @@
 - Move this file to config directory in your working directory and use it with any name like clientSecret.json.
 
 ## How to generate token ?
-- `node generateUrl.js` - Execute the command, It will show you URL. Copy that url and past on your browser after that it will ask for GMail password and return one key like `4/hfWgzJAjK9t15ekSnPdiKGMtmKxwgOwlVUT4k-bM3FE`
+- `node generateUrl.js` - Execute the command, It will show you URL. Copy that url and pasts on your browser after that it will ask for GMail password and return one key like `4/hfWgzJAjK9t15ekSnPdiKGMtmKxwgOwlVUT4k-bM3FE`
 - Replace that key present in file `generateToken.js` with new key which looks like `4/hfWgzJAjK9t15ekSnPdiKGMtmKxwgOwlVUT4k-bM3FE`
 - `node generateToken.js` - Execute the command. If everything goes well you will see the `token.json` file in `config` folder.
 
